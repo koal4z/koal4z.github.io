@@ -267,6 +267,14 @@ body {
   margin: 2rem 0;
 }
 
+.content-list-box-right .content-list-item .list-item-box a {
+  text-decoration: none;
+}
+
+.content-list-box-right .content-list-item .list-item-box a:hover {
+  text-decoration: underline;
+}
+
 .footer {
   height: auto;
   display: flex;
@@ -434,5 +442,14 @@ body {
   }
   .content-list-box-right > .content-list-item {
     margin-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .content-list-box-right .content-list-item .list-item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0;
   }
 }
