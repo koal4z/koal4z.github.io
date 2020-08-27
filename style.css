@@ -409,6 +409,10 @@ body {
   .pushtoTop {
     left: 4%;
   }
+
+  .disable {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 45em) {
