@@ -229,6 +229,10 @@ body {
   margin-left: 2rem;
 }
 
+.content-list-box-from-right {
+  margin-left: 0rem;
+}
+
 .content-list-item {
   margin: 1.2rem 0;
 }
