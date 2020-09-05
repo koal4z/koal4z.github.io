@@ -256,6 +256,11 @@ body {
   justify-content: space-between;
 }
 
+.content-list-item-right > * > .font-p {
+  font-size: 1.3rem;
+  letter-spacing: 0.15rem;
+}
+
 .list-item-date > .content-line {
   width: 60%;
   transform: translateY(-1.4rem);
